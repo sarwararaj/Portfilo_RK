@@ -1,0 +1,173 @@
+body{
+	
+	margin: 0;
+	padding: 0;
+}
+.dmenu{
+	margin: 0 auto;
+
+}
+nav{
+	height: 60px;
+	background: #e79702;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 30px;
+}
+nav ul li{
+    background: #e79702;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+
+
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 15px;
+}
+nav ul li a:hover{
+	background: pink;
+
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+}
+nav ul ul li{
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+
+
+	
+}
+main section{
+	position: relative;
+	/*display: grid;*/
+	/*grid-template-columns: repeat(6, 1fr);
+	grid-gap: 10px;*/
+	max-width: 980px;
+	margin: auto;
+	margin-top: -30px;
+	margin-bottom: 45px;
+	padding: 10px;
+	/*border: 1px solid black;*/
+	margin-left: 60px;
+}
+
+main section div img{
+	/*display: block;*/
+	max-width: 100%;
+	height: 200px;
+	padding-top: 80px;
+	width: 100%;
+	padding-bottom: -20px;
+}	
+.h{
+	margin-left: 30px;
+	margin-top: -20px;
+}
+.content{
+	background-color: white;
+	max-width: 100%;
+	height: 400px;
+	/*margin:auto;*/
+	padding-top: 10px; 	
+}
+.cont1{
+	background-color: white;
+	height: 600px;
+	float: left;
+	width: 60%;
+
+}
+.img{
+   display: grid;
+   justify-content: space-between;
+   border-radius: 9px;
+   margin-left: 100px;
+   border-radius: 3px black;
+
+	
+
+}
+.h1{
+	margin-left: 360px;
+}
+.cont2{
+	background-color:white;
+	height: 600px;
+	float: right;
+	width: 40%;
+
+}
+footer{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: auto;
+	background-color: #e79702;
+}
+.left{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+.right{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+footer section aside{
+	margin-right: 30px;
+}
+.socialLogo{
+	padding-right: 10px;
+
+}
+@media screen and (min-width: 300px){
+
+	nav ul li a{
+
+	
+	color: black;
+	
+	}
+}
+
+@media screen and (min-width: 300px){
+
+.cont1{
+	background-color: white;
+	height: 900px;
+	float: left;
+	width: 60%;
+
+}
+.img{
+   display: flex;
+   justify-content: space-between;
+   border-radius: 9px;
+   margin-left: 100px;
+   border-radius: 3px black;
+
+	
+
+}
